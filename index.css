@@ -689,10 +689,6 @@ body {
     } */
 }
 
-[role="tab"]:focus {
-	color: limegreen;
-}
-
 .number-indicators > * {
 	display: block;
 	cursor: pointer;
