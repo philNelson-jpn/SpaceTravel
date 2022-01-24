@@ -669,6 +669,9 @@ body {
 
 .grid-container--technology > .number-indicators {
 	grid-area: tabs;
+	display: flex;
+	--flow-space: 0;
+	margin-top: 2rem;
 }
 
 .grid-container--technology > .technology-details {
@@ -683,11 +686,6 @@ body {
 	.numbered-title {
 		justify-self: start;
 		margin-top: 2rem;
-	}
-
-	.destination-meta {
-		flex-direction: row;
-		justify-content: space-evenly;
 	}
 
 	.grid-container--technology {
@@ -763,7 +761,7 @@ body {
 /* number indicators */
 
 .number-indicators > * {
-	display: block;
+	display: flex;
 	cursor: pointer;
 	font-size: var(--fs-500);
 	place-items: center;
@@ -772,6 +770,7 @@ body {
 	border-radius: 50%;
 	aspect-ratio: 1;
 	background-color: hsl(var(--clr-white) / 0);
+	margin: 0.5rem 2rem;
 }
 
 .number-indicators > *:hover,
