@@ -30,8 +30,8 @@
         <ul id="primary-navigation" data-visible="false" class="primary-navigation underline-indicators flex">
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span aria-hidden="true">00</span>Home</a>
             <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span aria-hidden="true">01</span>Destination</a>
-            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span aria-hidden="true">02</span>Crew</a>
-            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span aria-hidden="true">03</span>Technology</a>
+            <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span aria-hidden="true">02</span>Crew</a>
+            <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span aria-hidden="true">03</span>Technology</a>
         </ul>
     </nav>
   </header>
@@ -56,11 +56,44 @@
     you'll spend your time during the flight. It includes a space gym, cinema, 
     and plenty of other activities to keep you entertained.</p>
       </article> 
+
+        <!-- spaceport -->
+        <article class="technology-details flow" id="spaceport-tab" role="tabpanel" tabindex="0">
+            <header class="flow flow--space-small">
+                <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
+                <p class="fs-700 uppercase ff-serif">Spaceport</p>
+            </header>
+        <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+            by analogy to the seaport for ships or airport for aircraft. Based in the 
+            famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+            of the Earth’s rotation for launch.</p>
+        </article> 
+
+                <!-- vehicle -->
+                <article class="technology-details flow" id="vehicle-tab" role="tabpanel" tabindex="0">
+                    <header class="flow flow--space-small">
+                        <h2 class="fs-600 ff-serif uppercase">The terminology...</h2>
+                        <p class="fs-700 uppercase ff-serif">Launch Vehicle</p>
+                    </header>
+                <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
+                    payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
+                    WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
+                    it's quite an awe-inspiring sight on the launch pad!</p>
+                </article> 
       
       <!-- images -->
     <picture id="capsule-image">
-        <source srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/webp">
-        <img src="assets/technology/image-space-capsule-portrait.jpg" alt="capsule">
+        <source srcset="assets/technology/image-space-capsule-landscape.jpg" type="image/jpg">
+        <source class="potrait" srcset="assets/technology/image-space-capsule-portrait.jpg" type="image/jpg">
+        <img src="assets/technology/image-space-capsule-landscape.jpg" alt="capsule">
+    </picture>
+    <picture id="spaceport-image">
+        <source srcset="assets/technology/image-spaceport-landscape.jpg" type="image/jpg">
+        <img src="assets/technology/image-spaceport-landscape.jpg" alt="spaceport">
+    </picture>
+    <picture id="vehicle-image">
+        <source srcset="assets/technology/image-launch-vehicle-landscape.jpg" type="image/jpg">
+        <img src="assets/technology/image-launch-vehicle-landscape.jpg" alt="launch-vehicle">
     </picture>
       
       </main>
